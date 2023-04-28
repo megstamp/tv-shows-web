@@ -25,7 +25,7 @@ export default function SignUp({ setUser }) {
     }
 
     return(
-        <>
+        <section className="form">
         <h2>SignUp</h2>
         <form onSumbit= {handleSignUp}>
             <label htmlFor="email">Email
@@ -48,6 +48,6 @@ export default function SignUp({ setUser }) {
 
         <input type="submit" value="add Sign Up" />
         </form>
-        </>
+        </section>
     )
 }
